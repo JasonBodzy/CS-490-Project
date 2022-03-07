@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+Crowdsources platform to network and promote local philanthropy events. Platform to promote and find events.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
