@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-Crowdsourced platform to network and promote local philanthropy events. Platform to promote and find events.
+Crowdsourced platform to network and promote local philanthropy and organizational events. Platform to promote and find events.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
+- **Category: Community**
+- **Mobile: iOS**
+- **Story: Find promote and events**
+- **Market: Students and Organizations**
 - **Habit:**
-- **Scope:**
+- **Scope: University Communities**
 
 ## Product Spec
 
