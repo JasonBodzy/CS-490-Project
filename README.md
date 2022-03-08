@@ -29,12 +29,19 @@ Crowdsourced platform to network and promote local philanthropy and organization
 **Required Must-have Stories**
 
 * [fill in your required user stories here]
-* ...
+* [users can log in]
+* [users can log out]
+* [users stay logged in/logged out across restarts]
+* [users can post events]
+* [users can view a feed of events]
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* [fill in your optional user stories here]
+* [users can view a map of events]
+* [users can comment on events]
+* [users can 'follow' organizations/institutions]
+* [users can rvsp to events (?)]
 
 ### 2. Screen Archetypes
 
@@ -44,6 +51,13 @@ Crowdsourced platform to network and promote local philanthropy and organization
 * [list second screen here]
    * [list associated required story here]
    * ...
+* [log in screen]
+   * [users can log in]
+* [feed screen]
+   * [users can view a feed of events]
+   * [users can log out]
+* [upload screen]
+   * [users can post events]
 
 ### 3. Navigation
 
