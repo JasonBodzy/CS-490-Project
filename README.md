@@ -55,6 +55,10 @@ Crowdsourced platform to network and promote local philanthropy and organization
    * users can log out
 * upload screen
    * users can post events
+* manage events screen (optional)
+   * users can manage their posted events
+* map/calendar screen (optional)
+   * users can view a map/calendar of available events 
 
 ### 3. Navigation
 
