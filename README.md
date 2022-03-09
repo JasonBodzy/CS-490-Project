@@ -28,29 +28,26 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
 * users can log in/sign up
 * users can log out
 * users stay logged in/logged out across restarts
 * users can post events
 * users can view a feed of events
+* purdue verification (purdue.edu email)
 
 **Optional Nice-to-have Stories**
 
-* [fill in your optional user stories here]
 * users can view a map of events
 * users can comment on events
 * users can 'follow' organizations/institutions
 * users can rvsp to events (?)
+* view a feed 'priority' organizations
+* calendar
+* organization profiles
+* organization verification
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
 * log in screen
    * users can log in/sign up
 * feed screen
@@ -70,11 +67,9 @@ Crowdsourced platform to network and promote local philanthropy and organization
 **Flow Navigation** (Screen to Screen)
 
 * Log in screen
-   * [list screen navigation here]
-   * ...
+   * leads to feed screen
 * Feed screen
-   * [list screen navigation here]
-   * ...
+   * leads to log in screen upon log out
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
