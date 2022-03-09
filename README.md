@@ -63,16 +63,16 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Feed tab
+* Upload tab (if organization)
+* Manage events tab (if organization)
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
+* Log in screen
    * [list screen navigation here]
    * ...
-* [list second screen here]
+* Feed screen
    * [list screen navigation here]
    * ...
 
