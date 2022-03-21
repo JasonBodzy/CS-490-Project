@@ -76,7 +76,8 @@ Crowdsourced platform to network and promote local philanthropy and organization
    * leads to log in screen upon log out
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
+<img width="922" alt="Screen Shot 2022-03-21 at 4 35 13 PM" src="https://user-images.githubusercontent.com/13425391/159359390-75d19897-8e7c-40fb-9d62-22aa3f6bc6a5.png">
+
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
