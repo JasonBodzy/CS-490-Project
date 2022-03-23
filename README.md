@@ -85,7 +85,21 @@ Crowdsourced platform to network and promote local philanthropy and organization
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+Post Data Model
+|Property      | Type  | Description             |
+|--------------|-------|-------------------------|
+|Image         | URL   |Picture for the post     |
+|caption       |String | Details/caption of event|
+|author/poster |PFUser |Person /org who posted   |
+|RSVPs         |Array of PFUsers|List of people who’ve RSVPed|
+|Time          |DateTime|Time of event           |
+|ID            |String  |Unique id for post      |
+|Location ?    |String  |Location of event (maybe just part of caption)|
+
+
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
