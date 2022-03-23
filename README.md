@@ -86,6 +86,15 @@ Crowdsourced platform to network and promote local philanthropy and organization
 [This section will be completed in Unit 9]
 ### Models
 
+User Data Model (PFuser)
+|Property|Type|Description|
+|--------|----|-----------|
+|username|String|Username of the user|
+|password|String|Password of the user|
+|RSVPs|int[]|Array of post ID’s for RSVPd posts|
+
+
+
 Post Data Model
 |Property      | Type  | Description             |
 |--------------|-------|-------------------------|
