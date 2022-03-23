@@ -110,6 +110,22 @@ Post Data Model
 
 
 ### Networking
-- [Add list of network requests by screen ]
+
+Log in screen
+	(POST) create new user
+	(GET) get user info
+
+Feed Screen
+	(GET) get posts
+	(PUT) RSVP to an event 
+	(DELETE) delete a post
+
+Upload screen
+	(POST) create a new post
+
+Settings screen ?
+	(PUT) update user
+	(DELETE) delete user
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
