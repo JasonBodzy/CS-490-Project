@@ -128,6 +128,7 @@ Post Data Model
 	* (DELETE) delete user
 
 Get all posts:
+```
 let query = PFQuery(className:"Post")
 query.order(byDescending: "id")
 query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
@@ -138,9 +139,10 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   // TODO: Do something with posts...
    }
 }
-
+```
 
 Create a post:
+```
 PFObject *newPost = [PFObject objectWithClassName:@"Post"];
 newPost[@"id"] = @id;
 newPost[@"image"] = URL;
@@ -151,6 +153,7 @@ newPost[@"author"] = currentUser.name; … etc
   } else {
     // There was a problem, check error.description
   }
-}];
+}]; 
+```
 
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
