@@ -127,6 +127,26 @@ Post Data Model
 	* (PUT) update user
 	* (DELETE) delete user
 
+Create new user:
+```
+@IBAction func signup(_ sender: Any) {
+        let user = PFUser()
+        user.username = self.txtUsernameSignup.text
+        user.password = self.txtPasswordSignup.text
+        
+        self.indicatorSignup.startAnimating()
+        user.signUpInBackground {(succeeded: Bool, error: Error?) -> Void in
+            self.indicatorSignup.stopAnimating()
+            if let error = error {
+                self.displayAlert(withTitle: "Error", message: error.localizedDescription)
+            } else {
+                self.displayAlert(withTitle: "Success", message: "Account has been successfully created")
+            }
+        }
+    }
+
+```
+
 Get all posts:
 ```
 let query = PFQuery(className:"Post")
