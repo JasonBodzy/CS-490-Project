@@ -147,6 +147,16 @@ Create new user:
 
 ```
 
+Delete user:
+```
+if PFUser.currentUser() != nil {
+        PFUser.currentUser()?.deleteInBackgroundWithBlock({ (deleteSuccessful, error) -> Void in
+            print("success = \(deleteSuccessful)")
+            PFUser.logOut()
+        })         
+}
+```
+
 Get all posts:
 ```
 let query = PFQuery(className:"Post")
