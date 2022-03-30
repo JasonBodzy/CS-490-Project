@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15536E5327F4FAB200D6707A /* PhilanthrofeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E5227F4FAB200D6707A /* PhilanthrofeedApp.swift */; };
+		15536E5527F4FAB200D6707A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E5427F4FAB200D6707A /* ContentView.swift */; };
+		15536E5727F4FAB400D6707A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15536E5627F4FAB400D6707A /* Assets.xcassets */; };
+		15536E5A27F4FAB400D6707A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15536E5927F4FAB400D6707A /* Preview Assets.xcassets */; };
+		15536E6427F4FAB400D6707A /* PhilanthrofeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6327F4FAB400D6707A /* PhilanthrofeedTests.swift */; };
+		15536E6E27F4FAB400D6707A /* PhilanthrofeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */; };
+		15536E7027F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15536E6027F4FAB400D6707A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15536E4727F4FAB200D6707A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15536E4E27F4FAB200D6707A;
+			remoteInfo = Philanthrofeed;
+		};
+		15536E6A27F4FAB400D6707A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15536E4727F4FAB200D6707A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15536E4E27F4FAB200D6707A;
+			remoteInfo = Philanthrofeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15536E4F27F4FAB200D6707A /* Philanthrofeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthrofeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15536E5227F4FAB200D6707A /* PhilanthrofeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedApp.swift; sourceTree = "<group>"; };
+		15536E5427F4FAB200D6707A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15536E5627F4FAB400D6707A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15536E5927F4FAB400D6707A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15536E5F27F4FAB400D6707A /* PhilanthrofeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhilanthrofeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15536E6327F4FAB400D6707A /* PhilanthrofeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedTests.swift; sourceTree = "<group>"; };
+		15536E6927F4FAB400D6707A /* PhilanthrofeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhilanthrofeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITests.swift; sourceTree = "<group>"; };
+		15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15536E4C27F4FAB200D6707A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536E5C27F4FAB400D6707A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536E6627F4FAB400D6707A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15536E4627F4FAB200D6707A = {
+			isa = PBXGroup;
+			children = (
+				15536E5127F4FAB200D6707A /* Philanthrofeed */,
+				15536E6227F4FAB400D6707A /* PhilanthrofeedTests */,
+				15536E6C27F4FAB400D6707A /* PhilanthrofeedUITests */,
+				15536E5027F4FAB200D6707A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15536E5027F4FAB200D6707A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15536E4F27F4FAB200D6707A /* Philanthrofeed.app */,
+				15536E5F27F4FAB400D6707A /* PhilanthrofeedTests.xctest */,
+				15536E6927F4FAB400D6707A /* PhilanthrofeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15536E5127F4FAB200D6707A /* Philanthrofeed */ = {
+			isa = PBXGroup;
+			children = (
+				15536E5227F4FAB200D6707A /* PhilanthrofeedApp.swift */,
+				15536E5427F4FAB200D6707A /* ContentView.swift */,
+				15536E5627F4FAB400D6707A /* Assets.xcassets */,
+				15536E5827F4FAB400D6707A /* Preview Content */,
+			);
+			path = Philanthrofeed;
+			sourceTree = "<group>";
+		};
+		15536E5827F4FAB400D6707A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15536E5927F4FAB400D6707A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15536E6227F4FAB400D6707A /* PhilanthrofeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				15536E6327F4FAB400D6707A /* PhilanthrofeedTests.swift */,
+			);
+			path = PhilanthrofeedTests;
+			sourceTree = "<group>";
+		};
+		15536E6C27F4FAB400D6707A /* PhilanthrofeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */,
+				15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */,
+			);
+			path = PhilanthrofeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15536E4E27F4FAB200D6707A /* Philanthrofeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15536E7327F4FAB500D6707A /* Build configuration list for PBXNativeTarget "Philanthrofeed" */;
+			buildPhases = (
+				15536E4B27F4FAB200D6707A /* Sources */,
+				15536E4C27F4FAB200D6707A /* Frameworks */,
+				15536E4D27F4FAB200D6707A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Philanthrofeed;
+			productName = Philanthrofeed;
+			productReference = 15536E4F27F4FAB200D6707A /* Philanthrofeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15536E5E27F4FAB400D6707A /* PhilanthrofeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15536E7627F4FAB500D6707A /* Build configuration list for PBXNativeTarget "PhilanthrofeedTests" */;
+			buildPhases = (
+				15536E5B27F4FAB400D6707A /* Sources */,
+				15536E5C27F4FAB400D6707A /* Frameworks */,
+				15536E5D27F4FAB400D6707A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15536E6127F4FAB400D6707A /* PBXTargetDependency */,
+			);
+			name = PhilanthrofeedTests;
+			productName = PhilanthrofeedTests;
+			productReference = 15536E5F27F4FAB400D6707A /* PhilanthrofeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15536E6827F4FAB400D6707A /* PhilanthrofeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15536E7927F4FAB500D6707A /* Build configuration list for PBXNativeTarget "PhilanthrofeedUITests" */;
+			buildPhases = (
+				15536E6527F4FAB400D6707A /* Sources */,
+				15536E6627F4FAB400D6707A /* Frameworks */,
+				15536E6727F4FAB400D6707A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15536E6B27F4FAB400D6707A /* PBXTargetDependency */,
+			);
+			name = PhilanthrofeedUITests;
+			productName = PhilanthrofeedUITests;
+			productReference = 15536E6927F4FAB400D6707A /* PhilanthrofeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15536E4727F4FAB200D6707A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					15536E4E27F4FAB200D6707A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					15536E5E27F4FAB400D6707A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 15536E4E27F4FAB200D6707A;
+					};
+					15536E6827F4FAB400D6707A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 15536E4E27F4FAB200D6707A;
+					};
+				};
+			};
+			buildConfigurationList = 15536E4A27F4FAB200D6707A /* Build configuration list for PBXProject "Philanthrofeed" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15536E4627F4FAB200D6707A;
+			productRefGroup = 15536E5027F4FAB200D6707A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15536E4E27F4FAB200D6707A /* Philanthrofeed */,
+				15536E5E27F4FAB400D6707A /* PhilanthrofeedTests */,
+				15536E6827F4FAB400D6707A /* PhilanthrofeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15536E4D27F4FAB200D6707A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536E5A27F4FAB400D6707A /* Preview Assets.xcassets in Resources */,
+				15536E5727F4FAB400D6707A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536E5D27F4FAB400D6707A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536E6727F4FAB400D6707A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15536E4B27F4FAB200D6707A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536E5527F4FAB200D6707A /* ContentView.swift in Sources */,
+				15536E5327F4FAB200D6707A /* PhilanthrofeedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536E5B27F4FAB400D6707A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536E6427F4FAB400D6707A /* PhilanthrofeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536E6527F4FAB400D6707A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536E6E27F4FAB400D6707A /* PhilanthrofeedUITests.swift in Sources */,
+				15536E7027F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15536E6127F4FAB400D6707A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15536E4E27F4FAB200D6707A /* Philanthrofeed */;
+			targetProxy = 15536E6027F4FAB400D6707A /* PBXContainerItemProxy */;
+		};
+		15536E6B27F4FAB400D6707A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15536E4E27F4FAB200D6707A /* Philanthrofeed */;
+			targetProxy = 15536E6A27F4FAB400D6707A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15536E7127F4FAB500D6707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15536E7227F4FAB500D6707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15536E7427F4FAB500D6707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Philanthrofeed/Preview Content\"";
+				DEVELOPMENT_TEAM = F748U6T7V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBodzy.Philanthrofeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15536E7527F4FAB500D6707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Philanthrofeed/Preview Content\"";
+				DEVELOPMENT_TEAM = F748U6T7V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBodzy.Philanthrofeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15536E7727F4FAB500D6707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F748U6T7V8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBodzy.PhilanthrofeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philanthrofeed.app/Philanthrofeed";
+			};
+			name = Debug;
+		};
+		15536E7827F4FAB500D6707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F748U6T7V8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBodzy.PhilanthrofeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Philanthrofeed.app/Philanthrofeed";
+			};
+			name = Release;
+		};
+		15536E7A27F4FAB500D6707A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F748U6T7V8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBodzy.PhilanthrofeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Philanthrofeed;
+			};
+			name = Debug;
+		};
+		15536E7B27F4FAB500D6707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F748U6T7V8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonBodzy.PhilanthrofeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Philanthrofeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15536E4A27F4FAB200D6707A /* Build configuration list for PBXProject "Philanthrofeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536E7127F4FAB500D6707A /* Debug */,
+				15536E7227F4FAB500D6707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15536E7327F4FAB500D6707A /* Build configuration list for PBXNativeTarget "Philanthrofeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536E7427F4FAB500D6707A /* Debug */,
+				15536E7527F4FAB500D6707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15536E7627F4FAB500D6707A /* Build configuration list for PBXNativeTarget "PhilanthrofeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536E7727F4FAB500D6707A /* Debug */,
+				15536E7827F4FAB500D6707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15536E7927F4FAB500D6707A /* Build configuration list for PBXNativeTarget "PhilanthrofeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536E7A27F4FAB500D6707A /* Debug */,
+				15536E7B27F4FAB500D6707A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15536E4727F4FAB200D6707A /* Project object */;
+}
