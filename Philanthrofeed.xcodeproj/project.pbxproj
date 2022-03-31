@@ -14,6 +14,7 @@
 		15536E6427F4FAB400D6707A /* PhilanthrofeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6327F4FAB400D6707A /* PhilanthrofeedTests.swift */; };
 		15536E6E27F4FAB400D6707A /* PhilanthrofeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */; };
 		15536E7027F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */; };
+		15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8D9E027F5487C00573AE2 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		15536E6927F4FAB400D6707A /* PhilanthrofeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhilanthrofeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITests.swift; sourceTree = "<group>"; };
 		15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15A8D9E027F5487C00573AE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				15536E5227F4FAB200D6707A /* PhilanthrofeedApp.swift */,
 				15536E5427F4FAB200D6707A /* ContentView.swift */,
+				15A8D9E027F5487C00573AE2 /* LoginView.swift */,
 				15536E5627F4FAB400D6707A /* Assets.xcassets */,
 				15536E5827F4FAB400D6707A /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */,
 				15536E5527F4FAB200D6707A /* ContentView.swift in Sources */,
 				15536E5327F4FAB200D6707A /* PhilanthrofeedApp.swift in Sources */,
 			);
