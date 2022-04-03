@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Parse
 
 @main
 struct PhilanthrofeedApp: App {
