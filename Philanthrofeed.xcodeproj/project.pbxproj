@@ -15,6 +15,9 @@
 		15536E6E27F4FAB400D6707A /* PhilanthrofeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */; };
 		15536E7027F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */; };
 		15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8D9E027F5487C00573AE2 /* LoginView.swift */; };
+		4E2CE862AF0224448BEACEFE /* Pods_Philanthrofeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CE2418DB5D9DC0CF257AE4 /* Pods_Philanthrofeed.framework */; };
+		8E70F312CAC8D4C46BDBE88B /* Pods_PhilanthrofeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538FF500CF115DFC989282F8 /* Pods_PhilanthrofeedTests.framework */; };
+		DD3A81560C6627F6B83FDC65 /* Pods_Philanthrofeed_PhilanthrofeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F92681B664A1C59CF09B98 /* Pods_Philanthrofeed_PhilanthrofeedUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		116939CBDEFAC8680B523007 /* Pods-Philanthrofeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philanthrofeed.debug.xcconfig"; path = "Target Support Files/Pods-Philanthrofeed/Pods-Philanthrofeed.debug.xcconfig"; sourceTree = "<group>"; };
 		15536E4F27F4FAB200D6707A /* Philanthrofeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philanthrofeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15536E5227F4FAB200D6707A /* PhilanthrofeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedApp.swift; sourceTree = "<group>"; };
 		15536E5427F4FAB200D6707A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +50,14 @@
 		15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITests.swift; sourceTree = "<group>"; };
 		15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15A8D9E027F5487C00573AE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3AD2289907FA87D44980941C /* Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig"; path = "Target Support Files/Pods-Philanthrofeed-PhilanthrofeedUITests/Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		402EE8472FB46FF5F62C9468 /* Pods-PhilanthrofeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhilanthrofeedTests.release.xcconfig"; path = "Target Support Files/Pods-PhilanthrofeedTests/Pods-PhilanthrofeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		538FF500CF115DFC989282F8 /* Pods_PhilanthrofeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhilanthrofeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729DFD101EA837182AB0E2BB /* Pods-PhilanthrofeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhilanthrofeedTests.debug.xcconfig"; path = "Target Support Files/Pods-PhilanthrofeedTests/Pods-PhilanthrofeedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0CE2418DB5D9DC0CF257AE4 /* Pods_Philanthrofeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Philanthrofeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0678604924CF2998249BB1D /* Pods-Philanthrofeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philanthrofeed.release.xcconfig"; path = "Target Support Files/Pods-Philanthrofeed/Pods-Philanthrofeed.release.xcconfig"; sourceTree = "<group>"; };
+		D5F13A871ABE2791D7351DB3 /* Pods-Philanthrofeed-PhilanthrofeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philanthrofeed-PhilanthrofeedUITests.debug.xcconfig"; path = "Target Support Files/Pods-Philanthrofeed-PhilanthrofeedUITests/Pods-Philanthrofeed-PhilanthrofeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4F92681B664A1C59CF09B98 /* Pods_Philanthrofeed_PhilanthrofeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Philanthrofeed_PhilanthrofeedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2CE862AF0224448BEACEFE /* Pods_Philanthrofeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E70F312CAC8D4C46BDBE88B /* Pods_PhilanthrofeedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3A81560C6627F6B83FDC65 /* Pods_Philanthrofeed_PhilanthrofeedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,8 @@
 				15536E6227F4FAB400D6707A /* PhilanthrofeedTests */,
 				15536E6C27F4FAB400D6707A /* PhilanthrofeedUITests */,
 				15536E5027F4FAB200D6707A /* Products */,
+				ABE9E874566315CFDE429FF5 /* Pods */,
+				56150757F22B154AAC3BC7FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +147,30 @@
 			path = PhilanthrofeedUITests;
 			sourceTree = "<group>";
 		};
+		56150757F22B154AAC3BC7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE2418DB5D9DC0CF257AE4 /* Pods_Philanthrofeed.framework */,
+				E4F92681B664A1C59CF09B98 /* Pods_Philanthrofeed_PhilanthrofeedUITests.framework */,
+				538FF500CF115DFC989282F8 /* Pods_PhilanthrofeedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE9E874566315CFDE429FF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				116939CBDEFAC8680B523007 /* Pods-Philanthrofeed.debug.xcconfig */,
+				D0678604924CF2998249BB1D /* Pods-Philanthrofeed.release.xcconfig */,
+				D5F13A871ABE2791D7351DB3 /* Pods-Philanthrofeed-PhilanthrofeedUITests.debug.xcconfig */,
+				3AD2289907FA87D44980941C /* Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig */,
+				729DFD101EA837182AB0E2BB /* Pods-PhilanthrofeedTests.debug.xcconfig */,
+				402EE8472FB46FF5F62C9468 /* Pods-PhilanthrofeedTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15536E7327F4FAB500D6707A /* Build configuration list for PBXNativeTarget "Philanthrofeed" */;
 			buildPhases = (
+				AB139A23BAC19496A22D4F78 /* [CP] Check Pods Manifest.lock */,
 				15536E4B27F4FAB200D6707A /* Sources */,
 				15536E4C27F4FAB200D6707A /* Frameworks */,
 				15536E4D27F4FAB200D6707A /* Resources */,
+				9AC458113C5DB3E9EB103DCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15536E7627F4FAB500D6707A /* Build configuration list for PBXNativeTarget "PhilanthrofeedTests" */;
 			buildPhases = (
+				F998C02EF8C944A8B9BFD7EA /* [CP] Check Pods Manifest.lock */,
 				15536E5B27F4FAB400D6707A /* Sources */,
 				15536E5C27F4FAB400D6707A /* Frameworks */,
 				15536E5D27F4FAB400D6707A /* Resources */,
@@ -172,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15536E7927F4FAB500D6707A /* Build configuration list for PBXNativeTarget "PhilanthrofeedUITests" */;
 			buildPhases = (
+				37A49A6CA79AAFA0D85A4ED3 /* [CP] Check Pods Manifest.lock */,
 				15536E6527F4FAB400D6707A /* Sources */,
 				15536E6627F4FAB400D6707A /* Frameworks */,
 				15536E6727F4FAB400D6707A /* Resources */,
+				9D74BE9F961D7D45A9194BB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +300,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A49A6CA79AAFA0D85A4ED3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Philanthrofeed-PhilanthrofeedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC458113C5DB3E9EB103DCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Philanthrofeed/Pods-Philanthrofeed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Philanthrofeed/Pods-Philanthrofeed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Philanthrofeed/Pods-Philanthrofeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D74BE9F961D7D45A9194BB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Philanthrofeed-PhilanthrofeedUITests/Pods-Philanthrofeed-PhilanthrofeedUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Philanthrofeed-PhilanthrofeedUITests/Pods-Philanthrofeed-PhilanthrofeedUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Philanthrofeed-PhilanthrofeedUITests/Pods-Philanthrofeed-PhilanthrofeedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB139A23BAC19496A22D4F78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Philanthrofeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F998C02EF8C944A8B9BFD7EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhilanthrofeedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15536E4B27F4FAB200D6707A /* Sources */ = {
@@ -417,6 +566,7 @@
 		};
 		15536E7427F4FAB500D6707A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116939CBDEFAC8680B523007 /* Pods-Philanthrofeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +596,7 @@
 		};
 		15536E7527F4FAB500D6707A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0678604924CF2998249BB1D /* Pods-Philanthrofeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +626,7 @@
 		};
 		15536E7727F4FAB500D6707A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729DFD101EA837182AB0E2BB /* Pods-PhilanthrofeedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +647,7 @@
 		};
 		15536E7827F4FAB500D6707A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402EE8472FB46FF5F62C9468 /* Pods-PhilanthrofeedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		15536E7A27F4FAB500D6707A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F13A871ABE2791D7351DB3 /* Pods-Philanthrofeed-PhilanthrofeedUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +687,7 @@
 		};
 		15536E7B27F4FAB500D6707A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD2289907FA87D44980941C /* Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

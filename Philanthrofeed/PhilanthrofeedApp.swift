@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import Parse
 
 @main
 struct PhilanthrofeedApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
