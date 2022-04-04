@@ -50,7 +50,7 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 * log in screen
    * users can log in/sign up
-   * <img src='http://recordit.co/zLiBCvxeA4'>
+   * <img src='http://g.recordit.co/zLiBCvxeA4.gif'>
    * This isn't done yet, just the front end so far
 * feed screen
    * users can view a feed of events
