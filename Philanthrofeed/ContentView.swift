@@ -6,6 +6,7 @@
 //
 // If you tapp on the Login text it transitions to login screen
 import SwiftUI
+import Parse
 
 struct ContentView: View {
     @State var tapped = false

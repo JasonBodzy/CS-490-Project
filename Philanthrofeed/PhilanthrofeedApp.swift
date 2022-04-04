@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Parse
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = Nil) -> Bool {
@@ -18,7 +19,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 
 struct PhilanthrofeedApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+main
     
     var body: some Scene {
         WindowGroup {

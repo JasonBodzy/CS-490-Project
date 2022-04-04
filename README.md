@@ -28,12 +28,12 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 **Required Must-have Stories**
 
-* users can log in/sign up
-* users can log out
-* users stay logged in/logged out across restarts
-* users can post events
-* users can view a feed of events
-* purdue verification (purdue.edu email)
+- [x] users can log in/sign up
+- [ ] users can log out
+- [ ] users stay logged in/logged out across restarts
+- [ ] users can post events
+- [ ] users can view a feed of events
+- [ ] purdue verification (purdue.edu email)
 
 **Optional Nice-to-have Stories**
 
@@ -50,6 +50,8 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 * log in screen
    * users can log in/sign up
+   * <img src='http://g.recordit.co/zLiBCvxeA4.gif'>
+   * This isn't done yet, just the front end so far
 * feed screen
    * users can view a feed of events
    * users can log out
@@ -83,7 +85,7 @@ Crowdsourced platform to network and promote local philanthropy and organization
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 
 User Data Model (PFuser)
