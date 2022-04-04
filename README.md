@@ -50,6 +50,8 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 * log in screen
    * users can log in/sign up
+   * <img src='http://recordit.co/zLiBCvxeA4'>
+   * This isn't done yet, just the front end so far
 * feed screen
    * users can view a feed of events
    * users can log out
@@ -83,7 +85,7 @@ Crowdsourced platform to network and promote local philanthropy and organization
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 
 User Data Model (PFuser)
