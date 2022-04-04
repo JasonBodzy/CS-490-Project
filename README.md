@@ -28,12 +28,12 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 **Required Must-have Stories**
 
-[*] users can log in/sign up
-[-] users can log out
-[-] users stay logged in/logged out across restarts
-[-] users can post events
-[-] users can view a feed of events
-[-] purdue verification (purdue.edu email)
+[x] users can log in/sign up
+[ ] users can log out
+[ ] users stay logged in/logged out across restarts
+[ ] users can post events
+[ ] users can view a feed of events
+[ ] purdue verification (purdue.edu email)
 
 **Optional Nice-to-have Stories**
 
