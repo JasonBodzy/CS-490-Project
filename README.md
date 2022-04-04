@@ -188,4 +188,19 @@ newPost[@"author"] = currentUser.name; … etc
 }]; 
 ```
 
+Delete a post:
+```
+let query = PFQuery(className: "Post")
+query.whereKey("columnName", equalTo: "id")
+query.findObjectsInBackgroundWithBlock {
+(objects: [AnyObject]?, error: NSError?) -> Void in
+    for object in objects {
+        object.deleteEventually()
+    }
+}
+
+```
+
+
+
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
