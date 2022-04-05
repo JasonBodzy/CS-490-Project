@@ -25,12 +25,29 @@ struct LoginView: View {
                 .background(lightGreyColor)
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
-            Button(action: {print("Button tapped")}) {
+            Button(action: {
+                print("Button tapped")
+                LogUserIn(username: username, password: password)
+                
+            }) {
                 LoginButtonContent()
             }
         }
         .padding()
     }
+}
+
+func LogUserIn(username: String, password: String) {
+    PFUser.logInWithUsername(inBackground: username, password: password)
+    { (user, error) in
+        if user != nil {
+            print("Logged in user: " + username)
+        } else {
+            print("Error: \(error?.localizedDescription)")
+        }
+        
+    }
+    
 }
 
 struct WelcomeText: View {
