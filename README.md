@@ -54,6 +54,7 @@ Crowdsourced platform to network and promote local philanthropy and organization
    * This isn't done yet, just the front end so far
 * feed screen
    * users can view a feed of events
+   * <img src='http://g.recordit.co/AvRv7dBrWx.gif'>
    * users can log out
 * upload screen
    * users can post events
