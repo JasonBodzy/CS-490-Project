@@ -42,6 +42,7 @@ func LogUserIn(username: String, password: String) {
     { (user, error) in
         if user != nil {
             print("Logged in user: " + username)
+            FeedView()
         } else {
             print("Error: \(error?.localizedDescription)")
         }

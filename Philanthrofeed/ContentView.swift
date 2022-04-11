@@ -16,7 +16,8 @@ struct ContentView: View {
                 Text("Login")
                     .padding()
             } else {
-                LoginView()
+                FeedView()
+                //LoginView()
             }
         }
         .onTapGesture {
