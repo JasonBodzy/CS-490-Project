@@ -30,21 +30,21 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 - [x] users can log in/sign up
 - [ ] users can log out
-- [ ] users stay logged in/logged out across restarts
+- [x] users stay logged in/logged out across restarts
 - [ ] users can post events
-- [ ] users can view a feed of events
+- [x] users can view a feed of events
 - [ ] purdue verification (purdue.edu email)
 
 **Optional Nice-to-have Stories**
 
-* users can view a map of events
-* users can comment on events
-* users can 'follow' organizations/institutions
-* users can rvsp to events (?)
-* view a feed 'priority' organizations
-* calendar
-* organization profiles
-* organization verification
+- [ ] users can view a map of events
+- [ ] users can comment on events
+- [ ] users can 'follow' organizations/institutions
+- [ ] users can rvsp to events (?)
+- [ ] view a feed 'priority' organizations
+- [ ] calendar
+- [ ] organization profiles
+- [ ] organization verification
 
 ### 2. Screen Archetypes
 
