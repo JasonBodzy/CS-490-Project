@@ -55,7 +55,7 @@ struct LoginView: View {
                 print("Error: \(error?.localizedDescription)")
                 err = true
             }
-            
+
         }
         
     }

@@ -28,30 +28,33 @@ Crowdsourced platform to network and promote local philanthropy and organization
 
 **Required Must-have Stories**
 
-* users can log in/sign up
-* users can log out
-* users stay logged in/logged out across restarts
-* users can post events
-* users can view a feed of events
-* purdue verification (purdue.edu email)
+- [x] users can log in/sign up
+- [ ] users can log out
+- [x] users stay logged in/logged out across restarts
+- [ ] users can post events
+- [x] users can view a feed of events
+- [ ] purdue verification (purdue.edu email)
 
 **Optional Nice-to-have Stories**
 
-* users can view a map of events
-* users can comment on events
-* users can 'follow' organizations/institutions
-* users can rvsp to events (?)
-* view a feed 'priority' organizations
-* calendar
-* organization profiles
-* organization verification
+- [ ] users can view a map of events
+- [ ] users can comment on events
+- [ ] users can 'follow' organizations/institutions
+- [ ] users can rvsp to events (?)
+- [ ] view a feed 'priority' organizations
+- [ ] calendar
+- [ ] organization profiles
+- [ ] organization verification
 
 ### 2. Screen Archetypes
 
 * log in screen
    * users can log in/sign up
+   * <img src='http://g.recordit.co/zLiBCvxeA4.gif'>
+   * This isn't done yet, just the front end so far
 * feed screen
    * users can view a feed of events
+   * <img src='http://g.recordit.co/AvRv7dBrWx.gif'>
    * users can log out
 * upload screen
    * users can post events
@@ -83,7 +86,7 @@ Crowdsourced platform to network and promote local philanthropy and organization
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 
 User Data Model (PFuser)
@@ -185,5 +188,20 @@ newPost[@"author"] = currentUser.name; … etc
   }
 }]; 
 ```
+
+Delete a post:
+```
+let query = PFQuery(className: "Post")
+query.whereKey("columnName", equalTo: "id")
+query.findObjectsInBackgroundWithBlock {
+(objects: [AnyObject]?, error: NSError?) -> Void in
+    for object in objects {
+        object.deleteEventually()
+    }
+}
+
+```
+
+
 
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
