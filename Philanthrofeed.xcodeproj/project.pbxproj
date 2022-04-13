@@ -14,8 +14,8 @@
 		15536E6427F4FAB400D6707A /* PhilanthrofeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6327F4FAB400D6707A /* PhilanthrofeedTests.swift */; };
 		15536E6E27F4FAB400D6707A /* PhilanthrofeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */; };
 		15536E7027F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */; };
-		1573BAAD27FE328E00A82E78 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573BAAC27FE328E00A82E78 /* FeedView.swift */; };
 		1573BAAF27FF789E00A82E78 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573BAAE27FF789D00A82E78 /* CreateAccountView.swift */; };
+		1574E5A72807725F00E6AFCE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1574E5A62807725F00E6AFCE /* Launch Screen.storyboard */; };
 		15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8D9E027F5487C00573AE2 /* LoginView.swift */; };
 		31645D5028020BE400A219B4 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31645D4F28020BE400A219B4 /* FeedView.swift */; };
 		31645D522802127E00A219B4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31645D512802127E00A219B4 /* ProfileView.swift */; };
@@ -54,8 +54,9 @@
 		15536E6927F4FAB400D6707A /* PhilanthrofeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhilanthrofeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITests.swift; sourceTree = "<group>"; };
 		15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1573BAAC27FE328E00A82E78 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		1573BAAE27FF789D00A82E78 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		1574E5A52807723400E6AFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1574E5A62807725F00E6AFCE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		15A8D9E027F5487C00573AE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		31645D4F28020BE400A219B4 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		31645D512802127E00A219B4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		15536E4627F4FAB200D6707A = {
 			isa = PBXGroup;
 			children = (
+				1574E5A62807725F00E6AFCE /* Launch Screen.storyboard */,
 				15536E5127F4FAB200D6707A /* Philanthrofeed */,
 				15536E6227F4FAB400D6707A /* PhilanthrofeedTests */,
 				15536E6C27F4FAB400D6707A /* PhilanthrofeedUITests */,
@@ -123,6 +125,7 @@
 		15536E5127F4FAB200D6707A /* Philanthrofeed */ = {
 			isa = PBXGroup;
 			children = (
+				1574E5A52807723400E6AFCE /* Info.plist */,
 				15536E5227F4FAB200D6707A /* PhilanthrofeedApp.swift */,
 				15536E5427F4FAB200D6707A /* ContentView.swift */,
 				1573BAAE27FF789D00A82E78 /* CreateAccountView.swift */,
@@ -293,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1574E5A72807725F00E6AFCE /* Launch Screen.storyboard in Resources */,
 				15536E5A27F4FAB400D6707A /* Preview Assets.xcassets in Resources */,
 				15536E5727F4FAB400D6707A /* Assets.xcassets in Resources */,
 			);
@@ -593,9 +597,9 @@
 				DEVELOPMENT_TEAM = F748U6T7V8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Philanthrofeed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -623,9 +627,9 @@
 				DEVELOPMENT_TEAM = F748U6T7V8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Philanthrofeed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
