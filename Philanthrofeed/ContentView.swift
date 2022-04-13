@@ -9,24 +9,46 @@ import SwiftUI
 import Parse
 
 struct ContentView: View {
-    @State var tapped = false
+    @State var login = false
+    @State var create = false
     var body: some View {
-        ZStack {
-            if !tapped {
+        VStack {
+            if !login && !create {
                 Text("Login")
                     .padding()
-            } else {
-                FeedView()
-                //LoginView()
+                    .frame(width: UIScreen.main.bounds.size.width / 3, height: UIScreen.main.bounds.size.height / 12, alignment: .center)
+                    .background(Color.blue)
+                    .cornerRadius(12.0)
+                    .onTapGesture {
+                        print("Login!")
+                        withAnimation{
+                            if (!login && !create) {
+                                login.toggle()
+                            }
+                        }
+                    }
+
+                Text("Create Account")
+                    .padding()
+                    .frame(width: UIScreen.main.bounds.size.width / 2, height: UIScreen.main.bounds.size.height / 12, alignment: .center)
+                    .background(Color.blue)
+                    .cornerRadius(12.0)
+                    .onTapGesture {
+                        print("Create Acct.")
+                        withAnimation{
+                            if (!create && !login) {
+                                create.toggle()
+                            }
+                        }
+                    }
+
+            } else if login {
+                LoginView()
+            } else if create {
+                CreateAccountView()
             }
         }
-        .onTapGesture {
-            withAnimation{
-                if (!tapped) {
-                    tapped.toggle()
-                }
-            }
-        }
+
         
     }
 }
