@@ -14,6 +14,8 @@
 		15536E6427F4FAB400D6707A /* PhilanthrofeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6327F4FAB400D6707A /* PhilanthrofeedTests.swift */; };
 		15536E6E27F4FAB400D6707A /* PhilanthrofeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */; };
 		15536E7027F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */; };
+		1573BAAD27FE328E00A82E78 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573BAAC27FE328E00A82E78 /* FeedView.swift */; };
+		1573BAAF27FF789E00A82E78 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573BAAE27FF789D00A82E78 /* CreateAccountView.swift */; };
 		15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8D9E027F5487C00573AE2 /* LoginView.swift */; };
 		4E2CE862AF0224448BEACEFE /* Pods_Philanthrofeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CE2418DB5D9DC0CF257AE4 /* Pods_Philanthrofeed.framework */; };
 		8E70F312CAC8D4C46BDBE88B /* Pods_PhilanthrofeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538FF500CF115DFC989282F8 /* Pods_PhilanthrofeedTests.framework */; };
@@ -49,6 +51,8 @@
 		15536E6927F4FAB400D6707A /* PhilanthrofeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhilanthrofeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITests.swift; sourceTree = "<group>"; };
 		15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1573BAAC27FE328E00A82E78 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		1573BAAE27FF789D00A82E78 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		15A8D9E027F5487C00573AE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3AD2289907FA87D44980941C /* Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig"; path = "Target Support Files/Pods-Philanthrofeed-PhilanthrofeedUITests/Pods-Philanthrofeed-PhilanthrofeedUITests.release.xcconfig"; sourceTree = "<group>"; };
 		402EE8472FB46FF5F62C9468 /* Pods-PhilanthrofeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhilanthrofeedTests.release.xcconfig"; path = "Target Support Files/Pods-PhilanthrofeedTests/Pods-PhilanthrofeedTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +119,9 @@
 			children = (
 				15536E5227F4FAB200D6707A /* PhilanthrofeedApp.swift */,
 				15536E5427F4FAB200D6707A /* ContentView.swift */,
+				1573BAAE27FF789D00A82E78 /* CreateAccountView.swift */,
 				15A8D9E027F5487C00573AE2 /* LoginView.swift */,
+				1573BAAC27FE328E00A82E78 /* FeedView.swift */,
 				15536E5627F4FAB400D6707A /* Assets.xcassets */,
 				15536E5827F4FAB400D6707A /* Preview Content */,
 			);
@@ -167,7 +173,6 @@
 				729DFD101EA837182AB0E2BB /* Pods-PhilanthrofeedTests.debug.xcconfig */,
 				402EE8472FB46FF5F62C9468 /* Pods-PhilanthrofeedTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,9 +414,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1573BAAD27FE328E00A82E78 /* FeedView.swift in Sources */,
 				15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */,
 				15536E5527F4FAB200D6707A /* ContentView.swift in Sources */,
 				15536E5327F4FAB200D6707A /* PhilanthrofeedApp.swift in Sources */,
+				1573BAAF27FF789E00A82E78 /* CreateAccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
