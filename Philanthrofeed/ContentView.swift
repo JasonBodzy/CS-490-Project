@@ -16,7 +16,7 @@ struct ContentView: View {
                 Text("Login")
                     .padding()
             } else {
-                FeedView()
+                CameraView()
                 //LoginView()
             }
         }

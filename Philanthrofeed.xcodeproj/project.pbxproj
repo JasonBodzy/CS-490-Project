@@ -15,6 +15,7 @@
 		15536E6E27F4FAB400D6707A /* PhilanthrofeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */; };
 		15536E7027F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */; };
 		15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8D9E027F5487C00573AE2 /* LoginView.swift */; };
+		314107EB28076DD50061161F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314107EA28076DD50061161F /* ImagePicker.swift */; };
 		31645D5028020BE400A219B4 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31645D4F28020BE400A219B4 /* FeedView.swift */; };
 		31645D522802127E00A219B4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31645D512802127E00A219B4 /* ProfileView.swift */; };
 		31645D54280212DA00A219B4 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31645D53280212DA00A219B4 /* CameraView.swift */; };
@@ -53,6 +54,7 @@
 		15536E6D27F4FAB400D6707A /* PhilanthrofeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITests.swift; sourceTree = "<group>"; };
 		15536E6F27F4FAB400D6707A /* PhilanthrofeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilanthrofeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15A8D9E027F5487C00573AE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		314107EA28076DD50061161F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		31645D4F28020BE400A219B4 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		31645D512802127E00A219B4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		31645D53280212DA00A219B4 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				31645D4F28020BE400A219B4 /* FeedView.swift */,
 				31645D512802127E00A219B4 /* ProfileView.swift */,
 				31645D53280212DA00A219B4 /* CameraView.swift */,
+				314107EA28076DD50061161F /* ImagePicker.swift */,
 				15536E5627F4FAB400D6707A /* Assets.xcassets */,
 				15536E5827F4FAB400D6707A /* Preview Content */,
 			);
@@ -420,6 +423,7 @@
 				31645D522802127E00A219B4 /* ProfileView.swift in Sources */,
 				31645D5028020BE400A219B4 /* FeedView.swift in Sources */,
 				15A8D9E127F5487D00573AE2 /* LoginView.swift in Sources */,
+				314107EB28076DD50061161F /* ImagePicker.swift in Sources */,
 				31645D54280212DA00A219B4 /* CameraView.swift in Sources */,
 				15536E5527F4FAB200D6707A /* ContentView.swift in Sources */,
 				15536E5327F4FAB200D6707A /* PhilanthrofeedApp.swift in Sources */,
