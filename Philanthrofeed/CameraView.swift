@@ -13,6 +13,8 @@ struct CameraView: View {
     @State var time: String = ""
     @State var location: String = ""
     @State var description: String = ""
+    @State var errorPosting = false
+    @State var buttonClicked = false
     var body: some View {
         VStack {
             TextField("Date", text: $date)
@@ -37,15 +39,34 @@ struct CameraView: View {
                 .padding(.bottom, 40)
                 //.frame(height: 40)
             Button(action: {
-                print("post")
+                buttonClicked = true
+                PostEvent(date: date, time: time, location: location, description: description)
             }) {
                 PostButtonContent()
+            }
+            if (errorPosting && buttonClicked) {
+                ErrorPostingText()
+            } else if (!errorPosting && buttonClicked){
+                SuccessPostingText()
             }
         }
         .padding()
     }
     func PostEvent(date: String, time: String, location: String, description: String) {
+        let post = PFObject(className: "Posts")
         
+        post["date"] = date
+        post["time"] = time
+        post["location"] = location
+        post["description"] = description
+        
+        post.saveInBackground { (success, error) in
+            if success {
+                errorPosting = false
+            } else {
+                errorPosting = true
+            }
+        }
     }
 }
 
@@ -68,7 +89,15 @@ struct ErrorPostingText: View {
             .fontWeight(.semibold)
             .foregroundColor(.red)
     }
+}
 
+struct SuccessPostingText: View {
+    var body: some View {
+        Text("Success!")
+            .font(.body)
+            .fontWeight(.semibold)
+            .foregroundColor(.green)
+    }
 }
 
 struct CameraView_Previews: PreviewProvider {
