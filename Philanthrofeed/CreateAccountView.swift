@@ -12,6 +12,7 @@ struct CreateAccountView: View {
     @State var username: String = ""
     @State var password: String = ""
     @State var feed = false
+    @State var err = false
     var body: some View {
         if (!feed) {
             VStack {
@@ -33,15 +34,34 @@ struct CreateAccountView: View {
                 }) {
                     CreateAccountButtonContent()
                 }
+                if (err) {
+                    ErrText()
+                }
             }
             .padding()
         } else {
             FeedView()
         }
+        
     }
     
     func CreateAccount(username: String, password: String) {
         print("Create account")
+        
+        let user = PFUser()
+                
+        user.username = username
+        user.password = password
+        
+        user.signUpInBackground { (success, error) in
+            if success {
+                print("User created")
+                feed = true
+            } else {
+                print("ERROR: \(error?.localizedDescription ?? "Unknown Error")")
+                err = true
+            }
+        }
         
     }
 }
