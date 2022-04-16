@@ -15,28 +15,44 @@ struct FeedView: View {
 }
 
 struct NavBar: View {
+    @State var logout = false
+    @State var post = false
     var body: some View {
+        if !logout && !post {
         NavigationView {
             PostsView()
                 .navigationTitle("Philanthrofeed")
                 .toolbar(content: {
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button(action: {
-                            CameraView()
+                            if !logout && !post {
+                                post.toggle()
+                            }
+                            //CameraView()
                         }) {
-                            Image("camera icon")
-                                .imageScale(.large)
+                            Text("Post")
                         }
                     }
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {
-                            ProfileView()
+                            if !logout && !post {
+                                logout.toggle()
+                                PFUser.logOut()
+                            }
+                            //logout.toggle()
+                            //PFUser.logOut()
                         }) {
-                            Image("profile icon")
-                                .imageScale(.large)
+                            Text("Logout")
                         }
                     }
                 })
+        }
+    }
+        else if logout {
+            ContentView()
+        }
+        else if post {
+            CameraView()
         }
     }
 }
