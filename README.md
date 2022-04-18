@@ -29,10 +29,10 @@ Crowdsourced platform to network and promote local philanthropy and organization
 **Required Must-have Stories**
 
 - [x] users can log in/sign up
-- [ ] users can log out
+- [x] users can log out
 - [x] users stay logged in/logged out across restarts
-- [ ] users can post events
-- [x] users can view a feed of events
+- [x] users can post events
+- [ ] users can view a feed of events
 - [x] users see a loading screen with logo
 - [ ] purdue verification (purdue.edu email)
 
@@ -52,11 +52,11 @@ Crowdsourced platform to network and promote local philanthropy and organization
 * log in screen
    * users can log in/sign up
    * <img src='http://g.recordit.co/zLiBCvxeA4.gif'>
-   * This isn't done yet, just the front end so far
 * feed screen
    * users can view a feed of events
    * <img src='http://g.recordit.co/AvRv7dBrWx.gif'>
    * users can log out
+   * <img src='http://g.recordit.co/XblCYfMnNk.gif'>
 * upload screen
    * users can post events
    * <img src='http://g.recordit.co/MaUC7HbJwF.gif'>
