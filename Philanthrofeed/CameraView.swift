@@ -9,6 +9,7 @@ import SwiftUI
 import Parse
 
 struct CameraView: View {
+    @State var back = false
     @State var date: String = ""
     @State var time: String = ""
     @State var location: String = ""
@@ -16,6 +17,7 @@ struct CameraView: View {
     @State var errorPosting = false
     @State var buttonClicked = false
     var body: some View {
+        if !back {
         VStack {
             TextField("Date", text: $date)
                 .padding()
@@ -44,6 +46,14 @@ struct CameraView: View {
             }) {
                 PostButtonContent()
             }
+            Button(action: {
+                if !back {
+                    back.toggle()
+                }
+            }) {
+                Text("Back")
+                    .font(.headline)
+            }
             if (errorPosting && buttonClicked) {
                 ErrorPostingText()
             } else if (!errorPosting && buttonClicked){
@@ -51,6 +61,10 @@ struct CameraView: View {
             }
         }
         .padding()
+    }
+        else if back {
+            FeedView()
+        }
     }
     func PostEvent(date: String, time: String, location: String, description: String) {
         let post = PFObject(className: "Posts")
