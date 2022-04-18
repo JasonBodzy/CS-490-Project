@@ -59,6 +59,7 @@ Crowdsourced platform to network and promote local philanthropy and organization
    * users can log out
 * upload screen
    * users can post events
+   * <img src='http://g.recordit.co/MaUC7HbJwF.gif'>
 * manage events screen (optional)
    * users can manage their posted events
 * map/calendar screen (optional)
