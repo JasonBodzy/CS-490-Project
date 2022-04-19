@@ -58,22 +58,54 @@ struct NavBar: View {
 }
 
 struct PostsView: View {
+    @State var posts = [PFObject]()
     var body: some View {
         ScrollView {
+            Button(action: {
+                loadPosts();
+                print(posts)
+                print(posts.count)
+            }) {
+                Text("Reload")
+            }
             VStack(spacing: 20) {
-                ForEach(0..<10) {
-                    Text("Item \($0)")
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                        .frame(width: UIScreen.main.bounds.width - 50, height: UIScreen.main.bounds.width - 50)
-                        .background(Color.green)
+
+                ForEach(0..<20) {
+                    if (posts.count > 0 && $0 < posts.count) {
+                        let post = posts[$0]
+                        Text("Date: \(post["date"] as! String) \n Time: \(post["time"] as! String) \n Location: \(post["location"] as! String)  \n Descrption: \(post["description"] as! String) ")
+                            .foregroundColor(.white)
+                            .font(.largeTitle)
+                            .frame(width: UIScreen.main.bounds.width - 50, height: UIScreen.main.bounds.width - 50)
+                            .background(Color.green)
+   
+                    } else {
+
+                    }
                     
                 }
             }
         }
         .frame(height: UIScreen.main.bounds.height * 0.8)
     }
+    func loadPosts() {
+        var numPosts = 20
+        var posts = [PFObject]()
+        let query = PFQuery(className: "Posts")
+        query.includeKeys(["date", "time", "location", "description"])
+        query.limit = 20
+        query.findObjectsInBackground{ (loaded, error) in
+            if loaded != nil {
+                posts = loaded!
+                self.posts = loaded!
+            }
+        }
+    }
 }
+
+
+
+
 
 struct FeedView_Previews: PreviewProvider {
     static var previews: some View {
