@@ -46,6 +46,7 @@ struct NavBar: View {
                         }
                     }
                 })
+                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
         }
     }
         else if logout {
@@ -73,20 +74,29 @@ struct PostsView: View {
                 ForEach(0..<20) {
                     if (posts.count > 0 && $0 < posts.count) {
                         let post = posts[$0]
-                        Text("Date: \(post["date"] as! String) \n Time: \(post["time"] as! String) \n Location: \(post["location"] as! String)  \n Descrption: \(post["description"] as! String) ")
-                            .foregroundColor(.white)
+                        let date = post["date"] as! String
+                        let time = post["time"] as! String
+                        let location = post["location"] as! String
+                        let description = post["description"] as! String
+                        Text("\(date)\n\(time)\n\(location)\n\(description)")
+                            .fontWeight(.light)
+                            .foregroundColor(.red)
                             .font(.largeTitle)
+                            .multilineTextAlignment(.center)
                             .frame(width: UIScreen.main.bounds.width - 50, height: UIScreen.main.bounds.width - 50)
-                            .background(Color.green)
+                            .overlay(RoundedRectangle(cornerRadius: 36.0)
+                                        .stroke()
+                                        .fill(Color.red)
+                            )
    
                     } else {
-
+                        
                     }
-                    
                 }
             }
         }
         .frame(height: UIScreen.main.bounds.height * 0.8)
+        .onAppear(perform: loadPosts)
     }
     func loadPosts() {
         var numPosts = 20
@@ -98,6 +108,7 @@ struct PostsView: View {
             if loaded != nil {
                 posts = loaded!
                 self.posts = loaded!
+                self.posts.reverse()
             }
         }
     }
