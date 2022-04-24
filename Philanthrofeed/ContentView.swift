@@ -14,10 +14,14 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if !login && !create {
+                Image("Philanthrofeed_Icon")
+                    .resizable()
+                    .frame(width: UIScreen.main.bounds.size.width - 10, height: UIScreen.main.bounds.size.width - 50, alignment: .center)
                 Text("Login")
                     .padding()
+                    .foregroundColor(.white)
                     .frame(width: UIScreen.main.bounds.size.width / 3, height: UIScreen.main.bounds.size.height / 12, alignment: .center)
-                    .background(Color.blue)
+                    .background(.red)
                     .cornerRadius(12.0)
                     .onTapGesture {
                         print("Login!")
@@ -30,8 +34,9 @@ struct ContentView: View {
 
                 Text("Create Account")
                     .padding()
+                    .foregroundColor(.white)
                     .frame(width: UIScreen.main.bounds.size.width / 2, height: UIScreen.main.bounds.size.height / 12, alignment: .center)
-                    .background(Color.blue)
+                    .background(.red)
                     .cornerRadius(12.0)
                     .onTapGesture {
                         print("Create Acct.")
