@@ -61,7 +61,7 @@ Crowdsourced platform to network and promote local philanthropy and organization
 * upload screen
    * users can post events
    * <img src='http://g.recordit.co/MaUC7HbJwF.gif'>
-* feed sceen
+* feed screen
    * feed parses posts
    * <img src='https://media.giphy.com/media/K1HWc5jsvgNVRf4UY4/giphy.gif'>
 * manage events screen (optional)
