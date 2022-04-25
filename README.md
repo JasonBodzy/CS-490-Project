@@ -32,13 +32,14 @@ Crowdsourced platform to network and promote local philanthropy and organization
 - [x] users can log out
 - [x] users stay logged in/logged out across restarts
 - [x] users can post events
-- [ ] users can view a feed of events
+- [x] users can view a feed of events
 - [x] users see a loading screen with logo
-- [ ] purdue verification (purdue.edu email)
 
 **Optional Nice-to-have Stories**
 
 - [ ] users can view a map of events
+- [x] Posts load based on recents
+- [x] App Icon
 - [ ] users can comment on events
 - [ ] users can 'follow' organizations/institutions
 - [ ] users can rvsp to events (?)
